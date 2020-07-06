@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Document</title>
+    <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet" id="font-awesome-5-kit-css">
+    <link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet" id="font-awesome-5-kit-css">
+    <script src="https://cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+     
+    <div class="container-fluid">
+      <div class="navbar-fixed">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="index.html">AdminBoard</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="Post.html">posts <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Categories.html">Categorie</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div role="separator" class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Utilisateur.html">utilisateurs</a>
+              </li>
+            </ul>
+            <ul>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fas fa-user"></i> bienvenu Housein
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="profil.html">profil</a>
+                  <a class="dropdown-item" href="parametr.html">Parametre</a>
+                  <div class="dropdown-divider"></div>
+                </div>
+              </li>
+            </ul>
+            <ul>
+              <li class="nav-item">
+                <a class="nav-link" href="log.html"><i class="fas fa-user"></i>logout</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+        
+</div>
+    <div class="container-fluid bg-warning text-white pt-3 pb-3">
+        <div class="container">
+            <i class="fas fa-user"></i>Users
+        </div>
+    </div>
+    <div class="container pt-3">
+        <div class="row">
+            <div class="offset-6 col-6">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control " placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append ">
+                      <span class="input-group-text" id="basic-addon2" style="background-color:#E0A800">Search</span>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card mb-3">
+            <div class="card-header">Categories</div>
+            <div class="card-body">
+                <table class="table">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Email</th>
+                        <th scope="col"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr style="background-color: #F9F9F9;">
+                        <th scope="row">1</th>
+                        <td>1</td>
+                        <td>Houssein abil</td>
+                        <td>Octobre@gmail.com</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>2</td>
+                        <td>Indi Gana</td>
+                        <td>Octobre@gmail.com</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  
+            </div>
+          </div>
+    </div>
+    <div class="container-fluid bg-dark">
+      <div class="container text-center text-white pt-3 pb-3">
+          copyright©2019adminBoard
+      </div>
+  </div>
+</body>
+</html>

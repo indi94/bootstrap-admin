@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Document</title>
+    <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet" id="font-awesome-5-kit-css">
+    <link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet" id="font-awesome-5-kit-css">
+    <script src="https://cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <div class="container-fluid">
+       <div class="navbar-fixed">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="index.html">AdminBoard</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="Post.html">posts <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Categories.html">Categorie</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div role="separator" class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Utilisateur.html">utilisateurs</a>
+              </li>
+            </ul>
+            <ul>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fas fa-user"></i> bienvenu Housein
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="profil.html">profil</a>
+                  <a class="dropdown-item" href="parametr.html">Parametre</a>
+                  <div class="dropdown-divider"></div>
+                </div>
+              </li>
+            </ul>
+            <ul>
+              <li class="nav-item">
+                <a class="nav-link" href="log.html"><i class="fas fa-user"></i>logout</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              </li>
+            </ul>
+          </div>
+        </nav>
+       </div>
+        
+</div>
+    <div class="container-fluid bg-primary text-white pt-3 pb-3">
+        <div class="container">
+           <i class="fas fa-cog">Parametre</i>
+        </div>
+    </div>
+        <div class="container-fluid pt-3 pb-3 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-9 text-darck">
+                      <a class="fas fa-arrow-left text-darck" href="index.html" role="button" d="Back to dawoad">Back to dawoad</a>
+                    </div>
+                    <div class="col-3">
+                        <button type="button" class="btn btn-success" data-toggle="button" aria-pressed="false">
+                            <i class="fas fa-check">Save changes</i>
+                          </button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="container-fluid pt-3">
+            <div class="container">
+                <div class="card  mb-3" >
+                    <div class="card-header bg-light">Edit settings</div>
+                    <div class="card-body">
+                        <form>
+                            <p>Allow User Registrations</p>
+                            <div class="form-check row">
+                                <div class="col-sm10"><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked></div> 
+                                <label class="form-check-label" for="exampleRadios1">
+                                  Yes
+                                </label>
+                                <div class="col-sm10"><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2"></div> 
+                                <label class="form-check-label" for="exampleRadios2">
+                                  No
+                                </label>
+                              </div>
+                              <p>Hompage Format</p>
+                              <div class="col-sm10"><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option1"checked></div> 
+                              <label class="form-check-label" for="exampleRadios2">
+                                post index
+                              </label>
+                              <div class="col-sm10"><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2"></div> 
+                              <label class="form-check-label" for="exampleRadios2">
+                                single page
+                              </label>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container-fluid bg-dark">
+                      <div class="container text-center text-white pt-3 pb-3">
+                          copyright©2019adminBoard
+                      </div>
+                </div>
+                  </body>
+                  </html>
+                                                         
